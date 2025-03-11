@@ -56,7 +56,7 @@ v1.9.4 | 2025-02-17
     <dependency>
        <groupId>org.jeecgframework.jimureport</groupId>
        <artifactId>jimureport-nosql-starter</artifactId>
-       <version>1.9.4</version>
+       <version>1.9.4.1</version>
     </dependency>
 ```
 
@@ -83,7 +83,7 @@ v1.9.4 | 2025-02-17
  <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimureport-nosql-starter</artifactId>
-  <version>1.9.4</version>
+  <version>1.9.4.1</version>
 </dependency>
 ```
 

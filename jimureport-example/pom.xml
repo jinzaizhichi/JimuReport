@@ -72,7 +72,7 @@
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimureport-nosql-starter</artifactId>
-            <version>${jimureport.version}</version>
+            <version>1.9.4.1</version>
         </dependency>
         <!-- 积木BI大屏 -->
         <dependency>
