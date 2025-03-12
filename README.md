@@ -51,7 +51,7 @@ v1.9.4 | 2025-02-17
     <dependency>
        <groupId>org.jeecgframework.jimureport</groupId>
        <artifactId>jimureport-spring-boot-starter</artifactId>
-       <version>1.9.4</version>
+       <version>1.9.5-RC</version>
     </dependency>
     <dependency>
        <groupId>org.jeecgframework.jimureport</groupId>
