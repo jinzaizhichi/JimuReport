@@ -1,10 +1,10 @@
 # JimuReport积木报表(免费报表工具)
 
-v1.9.4 | 2025-02-17
+v1.9.5 | 2025-04-01
 
 
 [![](https://img.shields.io/badge/Author-北京敲敲云科技-orange.svg)](https://qiaoqiaoyun.com/aboutUs)
-[![](https://img.shields.io/badge/version-1.9.4-brightgreen.svg)](https://github.com/jeecgboot/JimuReport)
+[![](https://img.shields.io/badge/version-1.9.5-brightgreen.svg)](https://github.com/jeecgboot/JimuReport)
 [![](https://img.shields.io/badge/Blog-积木报表官网-blue.svg)](http://jimureport.com)
 [![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/jeecgboot/JimuReport)
 [![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/jeecgboot/JimuReport)
@@ -51,7 +51,7 @@ v1.9.4 | 2025-02-17
     <dependency>
        <groupId>org.jeecgframework.jimureport</groupId>
        <artifactId>jimureport-spring-boot-starter</artifactId>
-       <version>1.9.5-RC</version>
+       <version>1.9.5</version>
     </dependency>
     <dependency>
        <groupId>org.jeecgframework.jimureport</groupId>
@@ -60,7 +60,7 @@ v1.9.4 | 2025-02-17
     </dependency>
 ```
 
--   积木大屏依赖
+-   积木BI大屏依赖
 
 ```
    <dependency>
@@ -70,32 +70,9 @@ v1.9.4 | 2025-02-17
    </dependency>
 ```
 
-##### springboot3集成依赖
+-  springboot3依赖
 
--   积木报表依赖
-
-```
- <dependency>
-  <groupId>org.jeecgframework.jimureport</groupId>
-  <artifactId>jimureport-spring-boot3-starter-fastjson2</artifactId>
-  <version>1.9.4</version>
-</dependency>
- <dependency>
-  <groupId>org.jeecgframework.jimureport</groupId>
-  <artifactId>jimureport-nosql-starter</artifactId>
-  <version>1.9.4.1</version>
-</dependency>
-```
-
--   积木大屏依赖
-
-```
-<dependency>
-  <groupId>org.jeecgframework.jimureport</groupId>
-  <artifactId>jimubi-spring-boot3-starter</artifactId>
-  <version>1.9.4</version>
-</dependency>
-```
+  点击[SpringBoot3文档](https://help.jimureport.com/springBoot3Support)，查看版本 
 
 
 #### 第二步：初始化SQL和详细必须配置
@@ -199,6 +176,14 @@ v1.9.4 | 2025-02-17
 ![](https://oscimg.oschina.net/oscnet/up-3eda428ef182cb64a1a8e132e4bfeb87718.png)
 ![](https://oscimg.oschina.net/oscnet/up-22096123c5b6a10a801967c33cc33a7af11.png)
 
+
+- 填报
+
+![](https://oscimg.oschina.net/oscnet/up-0139eb90f2d255152aa69d3b37fcc85e4a2.png)
+
+![](https://oscimg.oschina.net/oscnet/up-ded4831b7e25638f9ba6033a1f4ba87474f.png)
+
+![](https://oscimg.oschina.net/oscnet/up-f7c1a3a4cd6673038727ba49c3ee97e216b.png)
 
 仪表盘工作台
 -----------------------------------
