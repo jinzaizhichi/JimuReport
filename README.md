@@ -47,26 +47,26 @@ v1.9.5 | 2025-03-28
 -   积木报表依赖(springboot2)
 
 ```
-    <dependency>
-       <groupId>org.jeecgframework.jimureport</groupId>
-       <artifactId>jimureport-spring-boot-starter</artifactId>
-       <version>1.9.5</version>
-    </dependency>
-    <dependency>
-       <groupId>org.jeecgframework.jimureport</groupId>
-       <artifactId>jimureport-nosql-starter</artifactId>
-       <version>1.9.4.1</version>
-    </dependency>
+ <dependency>
+    <groupId>org.jeecgframework.jimureport</groupId>
+    <artifactId>jimureport-spring-boot-starter</artifactId>
+    <version>1.9.5</version>
+ </dependency>
+ <dependency>
+    <groupId>org.jeecgframework.jimureport</groupId>
+    <artifactId>jimureport-nosql-starter</artifactId>
+    <version>1.9.5</version>
+ </dependency>
 ```
 
 -   积木BI大屏依赖(springboot2)
 
 ```
-   <dependency>
-     <groupId>org.jeecgframework.jimureport</groupId>
-     <artifactId>jimubi-spring-boot-starter</artifactId>
-     <version>1.9.4</version>
-   </dependency>
+ <dependency>
+   <groupId>org.jeecgframework.jimureport</groupId>
+   <artifactId>jimubi-spring-boot-starter</artifactId>
+   <version>1.9.4</version>
+ </dependency>
 ```
 
 -  springboot3依赖
@@ -86,7 +86,7 @@ v1.9.5 | 2025-03-28
 - [Docker快速运行](https://help.jimureport.com/docker.html)
 - [绿色免安装版本](https://pan.baidu.com/s/1z9VmMz4HCc7GMVbzugetLQ?pwd=xafr)
 
-> 默认账号密码：admin/123456
+> 默认账号密码：admin/123456  , [支持改密码](https://help.jimureport.com/qa?_highlight=%E5%AF%86%E7%A0%81#4-jimureport-example%E9%A1%B9%E7%9B%AE%E6%80%8E%E4%B9%88%E4%BF%AE%E6%94%B9%E9%BB%98%E8%AE%A4%E5%AF%86%E7%A0%81)
 
 
 
