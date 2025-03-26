@@ -81,6 +81,8 @@ public class SpringSecurityConfig {
                 .clearAuthentication(true).permitAll();
         // 开放iframe访问限制
         http.headers().frameOptions().disable();
+        // 禁用默认的 no-cache
+        http.headers().cacheControl().disable(); 
         http.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.ALWAYS);
         http.rememberMe().useSecureCookie(true);
 
