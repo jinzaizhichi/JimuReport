@@ -43,9 +43,8 @@ v1.9.5 | 2025-04-01
 
 #### 第一步：引入JimuReport依赖
 
-##### springboot2集成依赖
 
--   积木报表依赖
+-   积木报表依赖(springboot2)
 
 ```
     <dependency>
@@ -60,7 +59,7 @@ v1.9.5 | 2025-04-01
     </dependency>
 ```
 
--   积木BI大屏依赖
+-   积木BI大屏依赖(springboot2)
 
 ```
    <dependency>
@@ -72,7 +71,7 @@ v1.9.5 | 2025-04-01
 
 -  springboot3依赖
 
-  点击[SpringBoot3文档](https://help.jimureport.com/springBoot3Support)，查看版本 
+ > 点击[SpringBoot3文档](https://help.jimureport.com/springBoot3Support)，查看积木报表和积木BI的版本 
 
 
 #### 第二步：初始化SQL和详细必须配置
