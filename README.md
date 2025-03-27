@@ -69,7 +69,7 @@ v1.9.5 | 2025-03-28
  </dependency>
 ```
 
--  springboot3依赖
+-  SpringBoot3专属依赖
 
  > 点击[SpringBoot3文档](https://help.jimureport.com/springBoot3Support)，查看积木报表和积木BI的版本 
 
@@ -183,6 +183,8 @@ v1.9.5 | 2025-03-28
 ![](https://oscimg.oschina.net/oscnet/up-ded4831b7e25638f9ba6033a1f4ba87474f.png)
 
 ![](https://oscimg.oschina.net/oscnet/up-f7c1a3a4cd6673038727ba49c3ee97e216b.png)
+
+
 
 仪表盘工作台
 -----------------------------------
