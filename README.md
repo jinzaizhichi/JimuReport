@@ -1,6 +1,6 @@
 # JimuReport积木报表(免费报表工具)
 
-v1.9.5 | 2025-03-28
+v1.9.5 | 2025-04-28
 
 
 [![](https://img.shields.io/badge/Author-北京敲敲云科技-orange.svg)](https://qiaoqiaoyun.com/aboutUs)
@@ -65,7 +65,7 @@ v1.9.5 | 2025-03-28
  <dependency>
    <groupId>org.jeecgframework.jimureport</groupId>
    <artifactId>jimubi-spring-boot-starter</artifactId>
-   <version>1.9.4</version>
+   <version>1.9.5</version>
  </dependency>
 ```
 
