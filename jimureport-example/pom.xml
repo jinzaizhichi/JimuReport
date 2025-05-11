@@ -66,13 +66,13 @@
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimureport-spring-boot-starter</artifactId>
-            <version>${jimureport.version}</version>
+            <version>1.9.5.1</version>
         </dependency>
         <!-- 积木报表扩展包 csv excel json mogodb redis数据集支持 -->
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimureport-nosql-starter</artifactId>
-            <version>1.9.5.1</version>
+            <version>1.9.5.2</version>
         </dependency>
         <!-- 积木BI大屏 -->
         <dependency>
