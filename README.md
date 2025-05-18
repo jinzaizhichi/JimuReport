@@ -50,12 +50,12 @@ v1.9.5 | 2025-04-28
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-spring-boot-starter</artifactId>
-    <version>1.9.5</version>
+    <version>1.9.5.1</version>
  </dependency>
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-nosql-starter</artifactId>
-    <version>1.9.5.1</version>
+    <version>1.9.5.2</version>
  </dependency>
 ```
 
