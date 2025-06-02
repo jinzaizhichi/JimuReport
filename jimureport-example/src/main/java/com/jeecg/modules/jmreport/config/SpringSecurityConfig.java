@@ -47,7 +47,9 @@ public class SpringSecurityConfig {
                         "/jmreport/test/getUserMsg",
                         "/jmreport/test/getOrder",
                         "/jimureport/test/**",
-                        "/jmreport/auto/export/download/**").permitAll()
+                        "/jmreport/auto/export/download/**",
+                        "/jmreport/qurestSql",
+                        "/jmreport/qurestApi").permitAll()
                 // 分享页面
                 .antMatchers("/jmreport/shareView/**",
                         "/jmreport/exportPdfStream",
