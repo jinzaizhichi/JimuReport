@@ -41,10 +41,10 @@ v2.0.0 | 2025-06-09
 -----------------------------------
 > 快速集成到自己项目中，支持SpringBoot脚手架项目，springboot2依赖采用jdk8编译，支持jdk8、jdk17、jdk21+。
 
-#### 第一步：引入JimuReport依赖
+#### 第一步：引入积木报表依赖
 
 
--   积木报表依赖(springboot2)
+-   springboot2
 
 ```
  <dependency>
@@ -59,7 +59,24 @@ v2.0.0 | 2025-06-09
  </dependency>
 ```
 
--   积木BI大屏依赖(springboot2)
+-   springboot3
+
+```
+ <dependency>
+    <groupId>org.jeecgframework.jimureport</groupId>
+    <artifactId>jimureport-spring-boot3-starter-fastjson2</artifactId>
+    <version>2.0.0</version>
+ </dependency>
+ <dependency>
+    <groupId>org.jeecgframework.jimureport</groupId>
+    <artifactId>jimureport-nosql-starter</artifactId>
+    <version>1.9.5.2</version>
+ </dependency>
+```
+
+#### 第二步：引入积木BI依赖(大屏和仪表盘)
+
+-   springboot2
 
 ```
  <dependency>
@@ -69,14 +86,23 @@ v2.0.0 | 2025-06-09
  </dependency>
 ```
 
--  SpringBoot3专属依赖
+-   springboot3
 
- > 点击[SpringBoot3文档](https://help.jimureport.com/springBoot3Support)，查看积木报表和积木BI的版本 
+```
+<dependency>
+  <groupId>org.jeecgframework.jimureport</groupId>
+  <artifactId>jimubi-spring-boot3-starter</artifactId>
+  <version>1.9.5</version>
+</dependency>
+```
 
 
-#### 第二步：初始化SQL和详细必须配置
+
+#### 第三步：初始化SQL和详细必须配置
 
  - https://help.jimureport.com/quick.html
+
+
 
 
 绿色免安装版本
