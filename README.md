@@ -4,7 +4,7 @@ v2.0.0 | 2025-06-09
 
 
 [![](https://img.shields.io/badge/Author-北京敲敲云科技-orange.svg)](https://qiaoqiaoyun.com/aboutUs)
-[![](https://img.shields.io/badge/version-1.9.5-brightgreen.svg)](https://github.com/jeecgboot/JimuReport)
+[![](https://img.shields.io/badge/version-2.0.0-brightgreen.svg)](https://github.com/jeecgboot/JimuReport)
 [![](https://img.shields.io/badge/Blog-积木报表官网-blue.svg)](http://jimureport.com)
 [![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/jeecgboot/JimuReport)
 [![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/jeecgboot/JimuReport)
@@ -355,7 +355,7 @@ v2.0.0 | 2025-06-09
 │  │  ├─参数管理
 │  ├─导入导出
 │  │  ├─导入Excel
-│  │  ├─导出Excel、pdf
+│  │  ├─导出Excel、pdf、word
 │  ├─打印设置
 │  │  ├─打印区域设置
 │  │  ├─打印机设置
