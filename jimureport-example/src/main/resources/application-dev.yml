@@ -33,6 +33,8 @@ spring:
 minidao:
   base-package: org.jeecg.modules.jmreport.*,org.jeecg.modules.drag.*
 jeecg:
+  # 许可证文件所在目录
+  lic-path: G:\opt\jiami-certfile\certfile_jmreportlic\out100year1
   # local|minio|alioss
   uploadType: local
   # local
