@@ -151,7 +151,7 @@
         <dependency>
             <groupId>com.dameng</groupId>
             <artifactId>DmDialect-for-hibernate5.0</artifactId>
-            <version>8.1.4.6</version>
+            <version>8.1.1.49</version>
             <scope>runtime</scope>
         </dependency>
         <!-- sqlite-->
