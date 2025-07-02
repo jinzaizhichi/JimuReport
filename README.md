@@ -34,7 +34,7 @@ v2.0.0 | 2025-06-09
 - 在线体验： http://jimureport.com/login
 - 快速入门： [快速集成积木报表](https://help.jimureport.com/quick.html) | [开发文档](https://help.jimureport.com) | [视频教程](http://jimureport.com/doc/video)
 - 技术支持： [发现bug，请在github上发issue](https://github.com/jeecgboot/JimuReport/issues/new)
-- QQ交流群： ③596660273、①212391162(满)、②929646317(满)
+- QQ交流群： 854804538、③596660273(满)、①212391162(满)、②929646317(满)
 
 
 
