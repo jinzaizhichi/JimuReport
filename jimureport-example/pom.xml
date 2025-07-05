@@ -65,13 +65,19 @@
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimureport-spring-boot-starter</artifactId>
-            <version>2.0.0.1</version>
+            <version>2.1.0</version>
         </dependency>
-        <!-- 积木报表扩展包 csv excel json mogodb redis数据集支持 -->
+        <!-- mongo、redis和文件数据集支持包，按需引入 -->
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimureport-nosql-starter</artifactId>
-            <version>1.9.5.2</version>
+            <version>2.0.0</version>
+        </dependency>
+        <!-- 后台导出接口Echart图表支持包，按需引入 -->
+        <dependency>
+            <groupId>org.jeecgframework.jimureport</groupId>
+            <artifactId>jimureport-echarts-starter</artifactId>
+            <version>2.1.0</version>
         </dependency>
         <!-- 积木BI大屏 -->
         <dependency>

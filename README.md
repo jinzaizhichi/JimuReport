@@ -1,6 +1,6 @@
 # JimuReport积木报表(免费报表工具)
 
-v2.0.0 | 2025-06-09
+v2.1.0 | 2025-07-07
 
 
 [![](https://img.shields.io/badge/Author-北京敲敲云科技-orange.svg)](https://qiaoqiaoyun.com/aboutUs)
@@ -51,12 +51,19 @@ v2.0.0 | 2025-06-09
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-spring-boot-starter</artifactId>
-    <version>2.0.0</version>
+    <version>2.1.0</version>
  </dependency>
+ <!-- mongo、redis和文件数据集支持包，按需引入 -->
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-nosql-starter</artifactId>
-    <version>1.9.5.2</version>
+    <version>2.0.0</version>
+ </dependency>
+ <!-- 后台导出接口Echart图表支持包，按需引入 -->
+ <dependency>
+    <groupId>org.jeecgframework.jimureport</groupId>
+    <artifactId>jimureport-echarts-starter</artifactId>
+    <version>2.1.0</version>
  </dependency>
 ```
 
@@ -71,7 +78,7 @@ v2.0.0 | 2025-06-09
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-nosql-starter</artifactId>
-    <version>1.9.5.2</version>
+    <version>2.0.0</version>
  </dependency>
 ```
 
