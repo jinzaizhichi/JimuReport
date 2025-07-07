@@ -21,7 +21,7 @@ public class ViewPageCustomAccess {
 
     public boolean check(HttpServletRequest request, Authentication authentication) {
         Object principal = authentication.getPrincipal();
-        if (OkConvertUtils.isEmpty(principal) || "anonymousUser".equalsIgnoreCase(principal.toString())) {
+        if (null == principal || principal.toString().isEmpty() || "anonymousUser".equalsIgnoreCase(principal.toString())) {
             // 未登录
             if (openViewPage) {
                 // 配置文件设置了开放view页面
@@ -30,7 +30,8 @@ public class ViewPageCustomAccess {
             HttpServletRequest httpRequest = (HttpServletRequest) request;
             String previousPage = httpRequest.getParameter("previousPage");
             String jmLink = httpRequest.getParameter("jmLink");
-            if (OkConvertUtils.isNotEmpty(previousPage) && OkConvertUtils.isNotEmpty(jmLink) ) {
+            if (null != previousPage && !previousPage.isEmpty()
+                    && null != jmLink && !jmLink.isEmpty()) {
                 // 参数中有previousPage和jmLink
                 return true;
             }

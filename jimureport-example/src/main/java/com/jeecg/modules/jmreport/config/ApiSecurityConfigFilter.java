@@ -21,9 +21,9 @@ public class ApiSecurityConfigFilter implements Filter {
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
         HttpServletRequest req = (HttpServletRequest) request;
         String loginFrom = req.getHeader("jm_login_from");
-        if(OkConvertUtils.isNotEmpty(loginFrom)){
+        if(null != loginFrom && !loginFrom.isEmpty()){
             String springSecurityContext = req.getHeader("jm_spring_security_context");
-            if(OkConvertUtils.isNotEmpty(springSecurityContext)){
+            if(null != springSecurityContext && !springSecurityContext.isEmpty()){
                 SecurityContextImpl securityContext = JSONObject.parseObject(springSecurityContext, SecurityContextImpl.class);
                 HttpSession session = req.getSession();
                 session.setAttribute("loginFrom", loginFrom);

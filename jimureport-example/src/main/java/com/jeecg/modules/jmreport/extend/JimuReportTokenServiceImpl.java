@@ -1,8 +1,12 @@
 package com.jeecg.modules.jmreport.extend;
 
 import org.jeecg.modules.jmreport.api.JmReportTokenServiceI;
+import org.jeecg.modules.jmreport.common.constant.JmConst;
+import org.jeecg.modules.jmreport.common.util.JimuSpringContextUtils;
+import org.jeecg.modules.jmreport.common.util.OkConvertUtils;
 import org.springframework.http.HttpHeaders;
 import org.springframework.stereotype.Component;
+
 import javax.servlet.http.HttpServletRequest;
 
 /**
@@ -20,31 +24,11 @@ public class JimuReportTokenServiceImpl implements JmReportTokenServiceI {
      */
     @Override
     public String getToken(HttpServletRequest request) {
-         //System.out.println("---------call---------getToken-----------------------");
+        //System.out.println("---------call---------getToken-----------------------");
         //return TokenUtils.getTokenByRequest(request);
         return "123456";
     }
 
-    /**
-     * 自定义获取租户
-     *
-     * @return
-     */
-    @Override
-    public String getTenantId() {
-//        String headerTenantId = null;
-//        HttpServletRequest request = JimuSpringContextUtils.getHttpServletRequest();
-//        if (request != null) {
-//            headerTenantId = request.getHeader(JmConst.HEADER_TENANT_ID);
-//            if(OkConvertUtils.isEmpty(headerTenantId)){
-//                headerTenantId = request.getParameter(JmConst.TENANT_ID);
-//            }
-//        }
-//        return headerTenantId;
-        return "1";
-    }
-
-    
     /**
      * 通过Token获取登录人用户名
      * @param token
@@ -58,7 +42,7 @@ public class JimuReportTokenServiceImpl implements JmReportTokenServiceI {
 
     /**
      * 自定义用户拥有的角色
-     * 
+     *
      * @param token
      * @return
      */
@@ -83,7 +67,7 @@ public class JimuReportTokenServiceImpl implements JmReportTokenServiceI {
         //drag:design:getTotalData         仪表盘对Online表单展示数据
         return new String[]{"drag:datasource:testConnection","onl:drag:clear:recovery","drag:analysis:sql","drag:design:getTotalData"};
     }
-    
+
     /**
      * Token校验
      * @param token
@@ -106,5 +90,27 @@ public class JimuReportTokenServiceImpl implements JmReportTokenServiceI {
         header.add("custom-header1", "Please set a custom value 1");
         header.add("token", "token value 2");
         return header;
+    }
+
+    /**
+     * 自定义获取租户
+     *
+     * @return
+     */
+    @Override
+    public String getTenantId() {
+        String headerTenantId = null;
+        HttpServletRequest request = JimuSpringContextUtils.getHttpServletRequest();
+        if (request != null) {
+            headerTenantId = request.getHeader(JmConst.HEADER_TENANT_KEY);
+            if(OkConvertUtils.isEmpty(headerTenantId)){
+                headerTenantId = request.getHeader(JmConst.HEADER_TENANT_ID);
+            }
+            if(OkConvertUtils.isEmpty(headerTenantId)){
+                headerTenantId = request.getParameter(JmConst.TENANT_ID);
+            }
+        }
+        //return headerTenantId;
+        return null;
     }
 }

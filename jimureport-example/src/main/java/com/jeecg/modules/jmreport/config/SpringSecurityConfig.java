@@ -60,6 +60,7 @@ public class SpringSecurityConfig {
                         "/jmreport/show",
                         "/jmreport/form/submit",
                         "/jmreport/form/repeat/check/**",
+                        "/jmreport/exportReport",
                         "/jmreport/addViewCount/**").permitAll()
                 // 仪表盘分享页面
                 .antMatchers("/jimubi/share/view/**",
