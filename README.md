@@ -4,7 +4,7 @@ v2.1.1 | 2025-07-28
 
 
 [![](https://img.shields.io/badge/Author-北京敲敲云科技-orange.svg)](https://qiaoqiaoyun.com/aboutUs)
-[![](https://img.shields.io/badge/version-2.1.0-brightgreen.svg)](https://github.com/jeecgboot/JimuReport)
+[![](https://img.shields.io/badge/version-2.1.1-brightgreen.svg)](https://github.com/jeecgboot/JimuReport)
 [![](https://img.shields.io/badge/Blog-积木报表官网-blue.svg)](http://jimureport.com)
 [![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/JimuReport.svg?style=social&label=Stars)](https://github.com/jeecgboot/JimuReport)
 [![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/JimuReport.svg?style=social&label=Fork)](https://github.com/jeecgboot/JimuReport)
