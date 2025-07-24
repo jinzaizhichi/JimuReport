@@ -1,6 +1,6 @@
 # JimuReport积木报表(免费报表工具)
 
-v2.1.0 | 2025-07-07
+v2.1.1 | 2025-07-28
 
 
 [![](https://img.shields.io/badge/Author-北京敲敲云科技-orange.svg)](https://qiaoqiaoyun.com/aboutUs)
@@ -16,7 +16,7 @@ v2.1.0 | 2025-07-07
  -   JimuReport 采用 Web 版报表设计器，类 Excel 操作风格，通过拖拽完成报表设计，所见即所得.
  -   领先的企业级 Web 报表，支持各种复杂报表，专注于解决企业报表难题.
  -   JimuBI 是专注于数字孪生和数据可视化的工具，旨在通过直观、动态且视觉吸引力强的形式呈现实时业务数据，尤其擅长打造 交互式大屏和仪表盘.
- -   JimuBI 业内唯一实现全场景覆盖——同时支持大屏（炫酷动态）、仪表盘（专业分析）、门户（交互式业务看板）、移动端（随时随地查看），真正实现 “一次开发，多端适配”.
+ -   JimuBI 业内唯一实现全场景覆盖：同时支持大屏（炫酷动态）、仪表盘（专业分析）、门户（交互式业务看板）、移动端（随时随地查看），真正实现 “一次开发，多端适配”.
  -   大屏采用类 word 风格，可以随意拖动组件，想怎么设计怎么设计，可以像百度和阿里一样，设计出炫酷大屏！
  -   秉承"简单、易用、专业"的产品理念，极大的降低报表开发难度、缩短开发周期、节省成本.
  
@@ -51,7 +51,7 @@ v2.1.0 | 2025-07-07
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-spring-boot-starter</artifactId>
-    <version>2.1.0</version>
+    <version>2.1.1</version>
  </dependency>
  <!-- mongo、redis和文件数据集支持包，按需引入 -->
  <dependency>
@@ -63,7 +63,7 @@ v2.1.0 | 2025-07-07
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-echarts-starter</artifactId>
-    <version>2.1.0</version>
+    <version>2.1.1</version>
  </dependency>
 ```
 
@@ -90,7 +90,7 @@ v2.1.0 | 2025-07-07
  <dependency>
    <groupId>org.jeecgframework.jimureport</groupId>
    <artifactId>jimubi-spring-boot-starter</artifactId>
-   <version>1.9.5</version>
+   <version>2.1.0</version>
  </dependency>
 ```
 
