@@ -65,7 +65,7 @@
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimureport-spring-boot-starter</artifactId>
-            <version>2.1.0</version>
+            <version>2.1.1</version>
         </dependency>
         <!-- mongo、redis和文件数据集支持包，按需引入 -->
         <dependency>
@@ -77,7 +77,7 @@
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimureport-echarts-starter</artifactId>
-            <version>2.1.0</version>
+            <version>2.1.1</version>
         </dependency>
         <!-- 积木BI大屏 -->
         <dependency>
