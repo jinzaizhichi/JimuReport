@@ -65,7 +65,7 @@ public class JimuReportTokenServiceImpl implements JmReportTokenServiceI {
         //onl:drag:clear:recovery          清空回收站
         //drag:analysis:sql                SQL解析
         //drag:design:getTotalData         仪表盘对Online表单展示数据
-        return new String[]{"drag:datasource:testConnection","onl:drag:clear:recovery","drag:analysis:sql","drag:design:getTotalData"};
+        return new String[]{"drag:datasource:testConnection","onl:drag:clear:recovery","drag:analysis:sql","drag:design:getTotalData","onl:drag:page:delete"};
     }
 
     /**
