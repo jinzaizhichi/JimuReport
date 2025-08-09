@@ -61,6 +61,8 @@ public class SpringSecurityConfig {
                         "/jmreport/form/submit",
                         "/jmreport/form/repeat/check/**",
                         "/jmreport/exportReport",
+                        "/jmreport/dictCodeSearch",
+                        "/jmreport/query/multiple/initValue",
                         "/jmreport/addViewCount/**").permitAll()
                 // 仪表盘分享页面
                 .antMatchers("/jimubi/share/view/**",
