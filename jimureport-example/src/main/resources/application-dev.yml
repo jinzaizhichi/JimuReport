@@ -71,6 +71,12 @@ jeecg:
       lowCodeMode: dev
       # sql注入检查级别（strict:严格, basic:简单校验, none:不校验）
       sqlInjectionLevel: basic
+    # 高德地图Api配置(v2.1.3+ BI新增高德地图)
+    gao-de-api:
+      # 应用key
+      api-key: ??
+      # 应用秘钥
+      secret-key: ??
     # 展示列数
     col: 100
     # 展示行数
