@@ -73,7 +73,7 @@ v2.1.3 | 2025-09-05
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-spring-boot3-starter-fastjson2</artifactId>
-    <version>2.1.1</version>
+    <version>2.1.3</version>
  </dependency>
  <!-- mongo、redis和文件数据集支持包，按需引入 -->
  <dependency>
@@ -107,7 +107,7 @@ v2.1.3 | 2025-09-05
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimubi-spring-boot3-starter</artifactId>
-  <version>2.1.0/version>
+  <version>2.1.3</version>
 </dependency>
 ```
 
