@@ -48,6 +48,7 @@ public class SpringSecurityConfig {
                         "/jmreport/test/getOrder",
                         "/jimureport/test/**",
                         "/jmreport/auto/export/download/**",
+                        "/jmreport/auto/export",
                         "/jmreport/qurestSql",
                         "/jmreport/qurestApi").permitAll()
                 // 分享页面
