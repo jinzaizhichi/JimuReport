@@ -40,7 +40,7 @@ v2.1.3 | 2025-09-05
 
 快速集成积木报表
 -----------------------------------
-> 快速集成到自己项目中，支持SpringBoot3脚手架项目(要求jdk17+)，springboot2版本要求jdk17+
+> 支持快速集成SpringBoot脚手架项目中。 SpringBoot3版本要求JDK17及以上、SpringBoot2版要求JDK8+
 
 #### 第一步：引入积木报表依赖
 
@@ -107,7 +107,7 @@ v2.1.3 | 2025-09-05
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimubi-spring-boot3-starter</artifactId>
-  <version>2.1.3</version>
+  <version>2.1.4</version>
 </dependency>
 ```
 
