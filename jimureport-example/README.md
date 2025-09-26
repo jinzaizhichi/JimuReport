@@ -13,8 +13,25 @@
 
 - 要求jdk17+（本项目springboot3架构）
 - 要求mysql5.7+ 手工执行db/jimureport.mysql5.7.create.sql，会自动创建库jimureport
-- 要求redis
 - 项目配置：src/main/resources/application-dev.yml
+- redis（可选）
+
+Redis集成（可选）
+-----------------------------------
+如果你想使用redis集成权限，请把pom中的以下依赖解开注释：
+```
+<!-- Sa-Token整合 Redis(使用jackson序列化方式) -->
+<dependency>
+   <groupId>cn.dev33</groupId>
+   <artifactId>sa-token-redis-jackson</artifactId>
+   <version>1.44.0</version>
+</dependency>
+<!-- 提供Redis连接池 -->
+<dependency>
+   <groupId>org.apache.commons</groupId>
+   <artifactId>commons-pool2</artifactId>
+</dependency>
+```
 
 
 使用步骤
@@ -33,7 +50,9 @@
       报表工作台： http://localhost:8085/jmreport/list
       
       仪表盘工作台： http://localhost:8085/drag/list
-           
+
+
+
 
 
 
@@ -62,6 +81,8 @@ Docker镜像制作
       报表工作台： http://localhost:8085/jmreport/list
       
       仪表盘工作台： http://localhost:8085/drag/list
+
+
 
 > 如果使用的是Mac M系列芯片:
 

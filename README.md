@@ -119,6 +119,14 @@ v2.1.3 | 2025-09-05
 
 
 
+jimureport-example环境要求
+-----------------------------------
+
+- 要求jdk17+（本项目springboot3架构）
+- 要求mysql5.7+ 手工执行db/jimureport.mysql5.7.create.sql，会自动创建库jimureport
+- 项目配置：src/main/resources/application-dev.yml
+- 要求redis（可选）
+
 
 绿色免安装版本
 -----------------------------------

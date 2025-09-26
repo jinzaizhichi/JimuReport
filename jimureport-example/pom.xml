@@ -91,7 +91,7 @@
             <artifactId>jsqlparser</artifactId>
             <version>${jsqlparser.version}</version>
         </dependency>
-
+    
         <!-- SpringBoot-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -108,17 +108,17 @@
             <artifactId>sa-token-spring-boot3-starter</artifactId>
             <version>1.44.0</version>
         </dependency>
-        <!-- Sa-Token整合 Redis (使用jackson序列化方式) -->
+<!--        &lt;!&ndash; Sa-Token整合 Redis(使用jackson序列化方式) &ndash;&gt;
         <dependency>
             <groupId>cn.dev33</groupId>
             <artifactId>sa-token-redis-jackson</artifactId>
             <version>1.44.0</version>
         </dependency>
-        <!-- 提供Redis连接池 -->
+        &lt;!&ndash; 提供Redis连接池 &ndash;&gt;
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-pool2</artifactId>
-        </dependency>
+        </dependency>-->
         
         <!-- minio oss-->
         <dependency>
