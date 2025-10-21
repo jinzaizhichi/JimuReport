@@ -91,6 +91,16 @@ v2.1.5 | 2025-10-22
 
 #### 第二步：引入积木BI依赖(大屏和仪表盘)
 
+-   springboot3
+
+```
+<dependency>
+  <groupId>org.jeecgframework.jimureport</groupId>
+  <artifactId>jimubi-spring-boot3-starter</artifactId>
+  <version>2.1.5</version>
+</dependency>
+```
+
 -   springboot2
 
 ```
@@ -100,18 +110,6 @@ v2.1.5 | 2025-10-22
    <version>2.1.4</version>
  </dependency>
 ```
-
--   springboot3
-
-```
-<dependency>
-  <groupId>org.jeecgframework.jimureport</groupId>
-  <artifactId>jimubi-spring-boot3-starter</artifactId>
-  <version>2.1.4</version>
-</dependency>
-```
-
-
 
 #### 第三步：初始化SQL和详细必须配置
 
