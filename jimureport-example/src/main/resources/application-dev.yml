@@ -1,5 +1,5 @@
 server:
-  port: 8085
+  port: 8082
 spring:
   #数据库
   datasource:
@@ -69,6 +69,10 @@ jeecg:
       sender: "???"
       username: "??@??.com"
       password: "???"
+      # 是否开启ssl
+      #ssl: true
+      # smtp端口
+      #port: 465
     #多租户模式，默认值为空(created:按照创建人隔离、tenant:按照租户隔离)
     saasMode:
     # 平台上线安全配置
