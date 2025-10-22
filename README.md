@@ -75,13 +75,11 @@ v2.1.5 | 2025-10-22
     <artifactId>jimureport-spring-boot-starter</artifactId>
     <version>2.1.5</version>
  </dependency>
- <!-- mongo、redis和文件数据集支持包，按需引入 -->
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-nosql-starter</artifactId>
     <version>2.0.0</version>
  </dependency>
- <!-- 后台导出接口Echart图表支持包，按需引入 -->
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-echarts-starter</artifactId>
