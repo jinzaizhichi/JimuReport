@@ -49,6 +49,11 @@
         <minio.version>8.0.3</minio.version>
         <!-- DB驱动 -->
         <mysql-connector-java.version>8.0.27</mysql-connector-java.version>
+        <!-- 积木报表版本 -->
+        <jimureport.version>2.1.5</jimureport.version>
+        <jimubi.version>2.1.5</jimubi.version>
+        <jimureport-echarts.version>2.1.1</jimureport-echarts.version>
+        <jimureport-nosql.version>2.1.0</jimureport-nosql.version>
         <!-- SQL解析引擎 -->
         <jsqlparser.version>4.9</jsqlparser.version>
     </properties>
@@ -65,25 +70,25 @@
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimureport-spring-boot3-starter</artifactId>
-            <version>2.1.5</version>
+            <version>${jimureport.version}</version>
         </dependency>
         <!-- mongo、redis和文件数据集支持包，按需引入 -->
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimureport-nosql-starter</artifactId>
-            <version>2.1.0</version>
+            <version>${jimureport-nosql.version}</version>
         </dependency>
         <!-- 后台导出接口Echart图表支持包，按需引入 -->
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimureport-echarts-starter</artifactId>
-            <version>2.1.1</version>
+            <version>${jimureport-echarts.version}</version>
         </dependency>
         <!-- 积木BI大屏 -->
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimubi-spring-boot3-starter</artifactId>
-            <version>2.1.5</version>
+            <version>${jimubi.version}</version>
         </dependency>
         <!-- jsqlparser-->
         <dependency>
@@ -125,6 +130,12 @@
             <groupId>io.minio</groupId>
             <artifactId>minio</artifactId>
             <version>${minio.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>guava</artifactId>
+                    <groupId>com.google.guava</groupId>
+                </exclusion>
+            </exclusions>
             <optional>true</optional>
         </dependency>
 
@@ -219,6 +230,24 @@
             <artifactId>kingbase8</artifactId>
             <version>9.0.0</version>
             <scope>runtime</scope>
+        </dependency>
+        <!--clickhouse-->
+        <dependency>
+            <groupId>com.clickhouse</groupId>
+            <artifactId>clickhouse-jdbc</artifactId>
+            <version>0.6.5</version>
+        </dependency>
+        <!--TDengine-->
+        <dependency>
+            <groupId>com.taosdata.jdbc</groupId>
+            <artifactId>taos-jdbcdriver</artifactId>
+            <version>3.3.3</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>fastjson</artifactId>
+                    <groupId>com.alibaba</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <!-- ============================数据库驱动========================== -->
     </dependencies>
