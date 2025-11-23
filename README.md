@@ -105,7 +105,7 @@ v2.2.0 | 2025-11-25
  <dependency>
    <groupId>org.jeecgframework.jimureport</groupId>
    <artifactId>jimubi-spring-boot-starter</artifactId>
-   <version>2.1.4</version>
+   <version>2.2.0</version>
  </dependency>
 ```
 
