@@ -1,20 +1,16 @@
 package com.jeecg.modules.jmreport.satoken;
 
-import cn.dev33.satoken.context.model.SaRequest;
-import cn.dev33.satoken.session.SaSession;
+import cn.dev33.satoken.context.SaHolder;
+import cn.dev33.satoken.filter.SaServletFilter;
+import cn.dev33.satoken.interceptor.SaInterceptor;
 import cn.dev33.satoken.stp.StpUtil;
-import com.jeecg.modules.jmreport.controller.LoginController;
+import cn.dev33.satoken.util.SaResult;
 import com.jeecg.modules.jmreport.satoken.util.AjaxRequestUtils;
-import jakarta.servlet.http.HttpSession;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
-
-import cn.dev33.satoken.context.SaHolder;
-import cn.dev33.satoken.filter.SaServletFilter;
-import cn.dev33.satoken.interceptor.SaInterceptor;
-import cn.dev33.satoken.util.SaResult;
 
 
 /**
@@ -22,6 +18,7 @@ import cn.dev33.satoken.util.SaResult;
  *
  * @author click33
  */
+@Slf4j
 @Configuration
 public class SaTokenConfigure implements WebMvcConfigurer {
 
@@ -60,8 +57,8 @@ public class SaTokenConfigure implements WebMvcConfigurer {
 
                 // 异常处理函数：每次认证函数发生异常时执行此函数 
                 .setError(e -> {
-                    System.out.println("---------- sa全局异常，path = " + SaHolder.getRequest().getRequestPath());
-                    System.out.println("---------- sa全局认证，token = " + StpUtil.getTokenValue());
+                    log.warn("---------- sa全局异常，path = " + SaHolder.getRequest().getRequestPath());
+                    log.warn("---------- sa全局认证，token = " + StpUtil.getTokenValue());
                     e.printStackTrace();
                     return SaResult.error(e.getMessage());
                 })
@@ -72,8 +69,8 @@ public class SaTokenConfigure implements WebMvcConfigurer {
                     SaHolder.getResponse()
                             // 服务器名称 
                             .setServer("sa-server")
-                            // 是否可以在iframe显示视图： DENY=不可以 | SAMEORIGIN=同域下可以 | ALLOW-FROM uri=指定域名下可以 
-                            .setHeader("X-Frame-Options", "SAMEORIGIN")
+                            //// 是否可以在iframe显示视图： DENY=不可以 | SAMEORIGIN=同域下可以 | ALLOW-FROM uri=指定域名下可以 
+                            //.setHeader("X-Frame-Options", "SAMEORIGIN")
                             // 是否启用浏览器默认XSS防护： 0=禁用 | 1=启用 | 1; mode=block 启用, 并在检查到XSS攻击时，停止渲染页面
                             .setHeader("X-XSS-Protection", "1; mode=block")
                             // 禁用浏览器内容嗅探 
