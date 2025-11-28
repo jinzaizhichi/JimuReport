@@ -69,8 +69,14 @@ public class SaTokenConfigure implements WebMvcConfigurer {
                     SaHolder.getResponse()
                             // 服务器名称 
                             .setServer("sa-server")
-                            //// 是否可以在iframe显示视图： DENY=不可以 | SAMEORIGIN=同域下可以 | ALLOW-FROM uri=指定域名下可以 
-                            //.setHeader("X-Frame-Options", "SAMEORIGIN")
+                            /**
+                             * frame-ancestors 'none' - 等同于 DENY 不可以
+                             * frame-ancestors 'self' - 等同于 SAMEORIGIN 同域下可以
+                             * frame-ancestors * - 允许所有域名嵌入
+                             * frame-ancestors example.com example.net - 允许指定域名嵌入
+                             */
+                             // 使用 Content-Security-Policy 替代 X-Frame-Options，允许所有域名嵌入
+                             .setHeader("Content-Security-Policy", "frame-ancestors *")
                             // 是否启用浏览器默认XSS防护： 0=禁用 | 1=启用 | 1; mode=block 启用, 并在检查到XSS攻击时，停止渲染页面
                             .setHeader("X-XSS-Protection", "1; mode=block")
                             // 禁用浏览器内容嗅探 
