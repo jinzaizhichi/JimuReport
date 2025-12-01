@@ -70,7 +70,7 @@ public class AjaxRequestUtils {
     public static void setLoginSessionInfo() {
         HttpSession originalSession = ((HttpServletRequest) SaHolder.getRequest().getSource()).getSession();
         if (originalSession!=null && originalSession.getAttribute("loginFrom") == null) {
-            log.info("设置登录来源，BI与报表切换开关，注入个性化session信息。");
+            log.debug("设置登录来源，BI与报表切换开关，注入个性化session信息。");
             originalSession.setAttribute("loginFrom", LOGIN_FROM_MODEL_NEED_LOGOUT);
             originalSession.setAttribute("switchJimuDrag", "true");
         }
