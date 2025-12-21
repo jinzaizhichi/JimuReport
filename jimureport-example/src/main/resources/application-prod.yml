@@ -69,6 +69,29 @@ jeecg:
     bucketName: ??
   #大屏报表参数设置
   jmreport:
+    # 邮件发送
+    mail:
+      # 是否开启
+      enabled: false
+      host: "???"
+      sender: "???"
+      username: "??@??.com"
+      password: "???"
+      # 是否开启ssl
+#      ssl: true
+      # smtp端口
+#      port: 465
+    # 自动化导出
+    automate:
+      export:
+        # 开启自动导出,默认false
+        enable-auto-export: true
+        # 非必须，文件过期时间，单位天，默认：30
+        expired: 30
+        # 非必须，积木报表view页面地址
+        #jimu-view-path: "https://???/jmreport/view/"
+        # 非必须，下载的报表的存放目录(服务器上的目录)
+        #download-path: "/???/???"
     #多租户模式，默认值为空(created:按照创建人隔离、tenant:按照租户隔离)
     saasMode:
     # 签名密钥
