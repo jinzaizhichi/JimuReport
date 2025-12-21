@@ -63,7 +63,7 @@ v2.3.0 | 2025-12-22
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-echarts-starter</artifactId>
-    <version>2.1.1</version>
+    <version>2.2.0</version>
  </dependency>
 ```
 
@@ -83,7 +83,7 @@ v2.3.0 | 2025-12-22
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-echarts-starter</artifactId>
-    <version>2.1.1</version>
+    <version>2.2.0</version>
  </dependency>
 ```
 
