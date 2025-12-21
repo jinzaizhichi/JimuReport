@@ -18,3 +18,5 @@ sa-token:
   token-style: uuid
   # 是否输出操作日志 
   is-log: false
+  # 关闭打印 banner
+  is-print: false
