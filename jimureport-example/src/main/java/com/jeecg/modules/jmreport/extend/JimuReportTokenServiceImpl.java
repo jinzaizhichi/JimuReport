@@ -84,7 +84,10 @@ public class JimuReportTokenServiceImpl implements JmReportTokenServiceI {
         //drag:design:getTotalData         仪表盘对Online表单展示数据
         //drag:dataset:save                数据集保存
         //drag:dataset:delete              数据集删除
-        return new String[]{"drag:datasource:testConnection","onl:drag:clear:recovery","drag:analysis:sql","drag:design:getTotalData","onl:drag:page:delete","drag:dataset:save","drag:dataset:delete"};
+        //drag:datasource:saveOrUpate      数据源保存
+        //drag:datasource:delete           数据源删除
+        return new String[]{"drag:datasource:testConnection","onl:drag:clear:recovery","drag:analysis:sql","drag:design:getTotalData","onl:drag:page:delete",
+                "drag:dataset:save","drag:dataset:delete","drag:datasource:saveOrUpate","`drag:datasource:delete"};
     }
 
     /**
