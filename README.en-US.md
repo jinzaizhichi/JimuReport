@@ -1,3 +1,6 @@
+[中文](./README.md) | [English](./README.en-US.md)
+
+
 # JimuReport (Free Report Tool)
 
 v2.3.0 | 2025-12-22
