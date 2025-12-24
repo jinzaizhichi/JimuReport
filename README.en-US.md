@@ -1,4 +1,4 @@
-[中文](./README.md) | [English](./README.en-US.md)
+[中文](./README.md) | English
 
 
 # JimuReport (Free Report Tool)
