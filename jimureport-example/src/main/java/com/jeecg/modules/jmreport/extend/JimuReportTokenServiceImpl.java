@@ -34,9 +34,13 @@ public class JimuReportTokenServiceImpl implements JmReportTokenServiceI {
      */
     @Override
     public String getToken(HttpServletRequest request) {
-        String token = StpUtil.getTokenValue();
-        log.debug("------SA--TOKEN-----RequestPath={} ，GET Token = {}", SaHolder.getRequest().getRequestPath(), token);
-        if(StringUtils.isEmpty(token)){
+        String token = null;
+        try {
+            token = StpUtil.getTokenValue();
+        } catch (Exception e) {
+            log.warn(" SA-TOKEN，获取Token异常: {}", e.getMessage());
+        }
+        if(StringUtils.isEmpty(token) && request != null){
             token = request.getParameter("token");
             // 将URL上的token设置到SaToken上下文，方便后续操作
             log.info("------SA--Init--TOKEN-----RequestPath={} ，从URL参数获取Token = {}", SaHolder.getRequest().getRequestPath(), token);
