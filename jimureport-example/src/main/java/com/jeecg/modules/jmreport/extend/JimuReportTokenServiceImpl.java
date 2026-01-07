@@ -38,7 +38,7 @@ public class JimuReportTokenServiceImpl implements JmReportTokenServiceI {
         try {
             token = StpUtil.getTokenValue();
         } catch (Exception e) {
-            log.warn(" SA-TOKEN，获取Token异常: {}", e.getMessage());
+            //log.warn(" SA-TOKEN，获取Token异常: {}", e.getMessage());
         }
         if(StringUtils.isEmpty(token) && request != null){
             token = request.getParameter("token");
