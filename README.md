@@ -31,7 +31,7 @@ v2.3.0 | 2025-12-22
 
 
 
-JimuReport AI Skills — Claude Code 技能清单
+JimuReport Skills技能 — Claude Code
 -----------------------------------
 
 > JimuReport 平台 Claude Code 技能集合，通过自然语言驱动，AI 自动生成报表、大屏和仪表盘，覆盖数据可视化全场景。更多技能详见 [Skills 仓库](https://github.com/jeecgboot/skills)
