@@ -3,7 +3,7 @@
 
 # JimuReport (Free Report Tool)
 
-v2.3.2 | 2026-04-10
+v2.3.2 | 2026-04-13
 
 
 [![](https://img.shields.io/badge/Author-北京国炬信息技术有限公司-orange.svg)](https://guojusoft.com)
