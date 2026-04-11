@@ -88,7 +88,7 @@ v2.3.2 | 2026-04-13
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimubi-spring-boot3-starter</artifactId>
-  <version>2.3.0</version>
+  <version>2.3.2</version>
 </dependency>
 ```
 
@@ -98,7 +98,7 @@ v2.3.2 | 2026-04-13
  <dependency>
    <groupId>org.jeecgframework.jimureport</groupId>
    <artifactId>jimubi-spring-boot-starter</artifactId>
-   <version>2.3.0</version>
+   <version>2.3.2</version>
  </dependency>
 ```
 

@@ -98,7 +98,7 @@ Quick Integration of JimuReport
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimubi-spring-boot3-starter</artifactId>
-  <version>2.3.0</version>
+  <version>2.3.2</version>
 </dependency>
 ```
 
@@ -108,7 +108,7 @@ Quick Integration of JimuReport
  <dependency>
    <groupId>org.jeecgframework.jimureport</groupId>
    <artifactId>jimubi-spring-boot-starter</artifactId>
-   <version>2.3.0</version>
+   <version>2.3.2</version>
  </dependency>
 ```
 
