@@ -562,3 +562,25 @@ Dashboard Function List
 If you think it's not bad, please buy the author a cup of coffee ☺
 
 ![](https://static.oschina.net/uploads/img/201903/08155608_0EFX.png)
+
+
+## Disclaimer
+
+JimuReport is released under a dual-license model: the [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html) open-source license together with [additional supplementary terms](./LICENSE). For commercial licensing, please refer to [http://jimureport.com/vip](http://jimureport.com/vip). Please read the following disclaimer carefully before using this software:
+
+1. **Provided "AS IS"**  
+   This software and its related documentation are provided "AS IS", without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, and non-infringement.
+
+2. **Use at Your Own Risk**  
+   Users shall evaluate whether this software meets their own business scenarios, and shall bear all risks arising from downloading, installing, using, modifying, or further developing this software, including but not limited to data loss, business interruption, loss of revenue, or any other form of damage.
+
+3. **Limitation of Liability**  
+   To the maximum extent permitted by applicable law, the authors, contributors, and copyright holders of JimuReport shall not be liable for any direct, indirect, incidental, special, punitive, or consequential damages suffered by users or any third party arising from the use of this software.
+
+4. **No Competing Products**  
+   Pursuant to Clause 2 of the "Supplementary Open-Source Terms" in the `LICENSE` file, users are **prohibited** from modifying and repackaging this software to release or sell products with functionality similar to JimuReport, or from otherwise competing with JimuReport in the same software product market. Any such conduct constitutes infringement, and the rights holder is entitled to demand cessation and claim compensation for resulting economic losses.
+
+5. **Copyright Attribution Retention**  
+   Pursuant to Clause 3 of the "Supplementary Open-Source Terms" in the `LICENSE` file, users must retain JimuReport's official copyright notices when deriving, integrating, or deploying this software, including but not limited to the **"Powered by 积木报表"** credit, the **JimuReport logo**, and related official links on preview pages.
+
+By downloading, copying, installing, or otherwise using this software, you are deemed to have read, understood, and agreed to the foregoing disclaimer and all terms set forth in the `LICENSE` file.
