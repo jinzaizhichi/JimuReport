@@ -125,6 +125,16 @@ v2.5.0 | 2026-06-25
  </dependency>
 ```
 
+-   springboot4（支持AI助手）
+
+```
+ <dependency>
+    <groupId>org.jeecgframework.jimureport</groupId>
+    <artifactId>jimureport-spring-boot4-starter</artifactId>
+    <version>2.5.0</version>
+ </dependency>
+```
+
 -   springboot2（不支持AI助手）
 
 ```
@@ -153,6 +163,16 @@ v2.5.0 | 2026-06-25
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimubi-spring-boot3-starter</artifactId>
+  <version>2.5.0</version>
+</dependency>
+```
+
+-   springboot4（支持AI助手）
+
+```
+<dependency>
+  <groupId>org.jeecgframework.jimureport</groupId>
+  <artifactId>jimubi-spring-boot4-starter</artifactId>
   <version>2.5.0</version>
 </dependency>
 ```
