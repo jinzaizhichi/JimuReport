@@ -43,12 +43,12 @@ v2.5.0 | 2026-06-25
 
 ## Product Overview
 
-JimuReport is a **free data visualization reporting tool** that brings reports, printing, big screens, and dashboards together — design entirely online, like building with blocks. It consists of two modules: **JimuReport** focuses on traditional complex reports and printing, while **JimuBI** focuses on big-screen and dashboard visualization.
+JimuReport is a **free data visualization reporting tool** that brings reports, printing, big screens, dashboards, and conversational BI together — design entirely online, like building with blocks. It consists of three modules: **JimuReport** focuses on traditional complex reports and printing, **JimuBI** focuses on big-screen and dashboard visualization, and **JimuChatBI** provides conversational intelligent data analysis, enabling data queries and insights through natural language.
 
 - **AI-Powered Generation**: Built-in Claude Code skills (AI report / big screen / dashboard) generate professional visualization pages from a single sentence — no more tedious drag-and-drop.
 - **Excel-like Designer**: Web-based drag-and-drop design, WYSIWYG, focused on solving enterprise-grade complex reporting challenges.
 - **Enterprise Advanced Features**: grouping / cross-tab / master-detail reports, **multi-sheet reports**, data drill-down, **one-click printing**, form-overlay & invoice printing, **data filling**, **mobile reports**, QR/barcodes, and more.
-- **Full-Scenario Coverage**: JimuBI supports big screens, dashboards, portals, and mobile — develop once, adapt everywhere; big screens use a Word-like style with freely draggable components.
+- **Full-Scenario Coverage**: JimuBI supports big screens, dashboards, portals, and mobile — develop once, adapt everywhere; JimuChatBI enables data queries and analysis through natural-language conversation, lowering the barrier to BI; big screens use a Word-like style with freely draggable components.
 - **Simple · Easy · Professional**: greatly lowers report development difficulty, shortens development cycles, and saves costs.
 
 > **Open Source First** — building "professional, easy-to-use, AI-intelligent" data visualization reports, big screens, and portals
@@ -98,7 +98,7 @@ And with the arrival of the AI wave, JimuReport goes a step further by introduci
 
 ## Quick Integration
 
-> Supports quick integration into SpringBoot scaffold projects. SpringBoot3 requires JDK17+, SpringBoot2 requires JDK8+. See the [integration docs](https://help.jimureport.com/quick.html) for details.
+> Supports quick integration into SpringBoot scaffold projects. SpringBoot4 requires JDK17+, SpringBoot2 requires JDK8+. See the [integration docs](https://help.jimureport.com/quick.html) for details.
 
 #### Step 1: Add JimuReport Dependencies
 
@@ -186,7 +186,20 @@ And with the arrival of the AI wave, JimuReport goes a step further by introduci
  </dependency>
 ```
 
-#### Step 3: Initialize SQL and Required Configuration
+#### Step 3: Add JimuChatBI Dependencies (Conversational Intelligent Data Analysis)
+
+-   springboot4
+
+```
+<!-- JimuChatBI -->
+<dependency>
+    <groupId>org.jeecgframework.jimureport</groupId>
+    <artifactId>jimuchatbi-spring-boot4-starter</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
+#### Step 4: Initialize SQL and Required Configuration
 
 - https://help.jimureport.com/quick.html
 
@@ -195,7 +208,7 @@ And with the arrival of the AI wave, JimuReport goes a step further by introduci
 
 #### jimureport-example Environment Requirements
 
-- Requires JDK17+ (this project uses SpringBoot3 architecture)
+- Requires JDK17+ (this project uses SpringBoot4 architecture)
 - Requires MySQL 5.7+; manually execute `db/jimureport.mysql5.7.create.sql`, which automatically creates the jimureport database
 - Project configuration: `src/main/resources/application-dev.yml`
 - Requires Redis (optional)
@@ -211,7 +224,7 @@ And with the arrival of the AI wave, JimuReport goes a step further by introduci
 
 ## AI-Powered Generation
 
-> A collection of JimuReport Claude Code skills: describe your needs in one sentence and AI generates **AI reports**, **AI big screens**, and **AI dashboards**, covering the full data-visualization spectrum — no more tedious drag-and-drop.
+> A collection of JimuReport Claude Code skills: describe your needs in one sentence and AI generates **AI reports**, **AI big screens**, **AI dashboards**, and **AI conversational BI**, covering the full data-visualization spectrum — no more tedious drag-and-drop.
 
 #### 🚀 One-Click Install: Claude Code + JimuReport Skills
 

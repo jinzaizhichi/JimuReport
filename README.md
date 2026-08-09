@@ -44,12 +44,12 @@ v2.5.0 | 2026-06-25
 
 ## 产品介绍
 
-积木报表是一款**免费的数据可视化报表工具**，集报表、打印、大屏、仪表盘于一体，像搭积木一样完全在线设计。分两大模块：**JimuReport** 主攻传统复杂报表与打印，**JimuBI** 专注数据大屏与仪表盘可视化。
+积木报表是一款**免费的数据可视化报表工具**，集报表、打印、大屏、仪表盘、对话式 BI 于一体，像搭积木一样完全在线设计。分三大模块：**JimuReport** 主攻传统复杂报表与打印，**JimuBI** 专注数据大屏与仪表盘可视化，**JimuChatBI** 提供对话式智能数据分析，用自然语言即可完成数据查询与洞察。
 
 - **AI 智能生成**：内置 Claude Code 技能（AI 报表 / 大屏 / 仪表盘），一句话需求自动生成专业可视化页面，告别繁琐拖拽。
 - **类 Excel 设计器**：Web 版拖拽设计、所见即所得，专注解决企业级各类复杂报表难题。
 - **企业级高级功能**：分组 / 交叉 / 主子报表、**多 Sheet 报表**、数据钻取、**一键打印**、套打与发票打印、**数据填报**、**移动端报表**、二维码条码等一应俱全。
-- **全场景覆盖**：JimuBI 同时支持大屏、仪表盘、门户、移动端，一次开发、多端适配；大屏采用类 Word 风格，组件随意拖动，轻松设计炫酷大屏。
+- **全场景覆盖**：JimuBI 同时支持大屏、仪表盘、门户、移动端，一次开发、多端适配；JimuChatBI 以自然语言对话方式实现数据查询与分析，降低 BI 使用门槛；大屏采用类 Word 风格，组件随意拖动，轻松设计炫酷大屏。
 - **简单 · 易用 · 专业**：极大降低报表开发难度，缩短开发周期，节省成本。
 
 > **专注开源** —— 打造「专业 · 易用 · AI 智能」的数据可视化报表、大屏与门户
@@ -99,7 +99,7 @@ v2.5.0 | 2026-06-25
 
 ## 快速集成
 
-> 支持快速集成 SpringBoot 脚手架项目中。SpringBoot3 版本要求 JDK17 及以上、SpringBoot2 版要求 JDK8+。详细配置见 [快速集成文档](https://help.jimureport.com/quick.html)。
+> 支持快速集成 SpringBoot 脚手架项目中。SpringBoot4 版本要求 JDK17 及以上、SpringBoot2 版要求 JDK8+。详细配置见 [快速集成文档](https://help.jimureport.com/quick.html)。
 
 #### 第一步：引入积木报表依赖
 
@@ -187,14 +187,27 @@ v2.5.0 | 2026-06-25
  </dependency>
 ```
 
-#### 第三步：初始化 SQL 和必要配置
+#### 第三步：引入积木 ChatBI 依赖（对话式智能数据分析）
+
+-   springboot4
+
+```
+<!-- 积木chatbi -->
+<dependency>
+    <groupId>org.jeecgframework.jimureport</groupId>
+    <artifactId>jimuchatbi-spring-boot4-starter</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
+
+#### 第四步：初始化 SQL 和必要配置
 
 - https://help.jimureport.com/quick.html
 
 
 ## AI 助手集成配置
 
-> AI 助手功能仅支持 **SpringBoot3**（`jimureport-spring-boot3-starter`）。配置完成后，报表设计器内将自动显示 AI 入口，**无需额外部署**，开箱即用。
+> AI 助手功能支持 **SpringBoot4 / SpringBoot3**（`jimureport-spring-boot4-starter` / `jimureport-spring-boot3-starter`）。配置完成后，报表设计器内将自动显示 AI 入口，**无需额外部署**，开箱即用。
 >
 > 详细说明：[AI 助手配置文档](https://help.jimureport.com/rumen/aiAssistant/) · [配置教程](https://my.oschina.net/jeecg/blog/19711672)
 
@@ -241,7 +254,7 @@ jeecg:
 
 #### jimureport-example 环境要求
 
-- 要求 JDK17+（本项目 SpringBoot3 架构）
+- 要求 JDK17+（本项目 SpringBoot4 架构）
 - 要求 MySQL5.7+，手工执行 `db/jimureport.mysql5.7.create.sql`，会自动创建库 jimureport
 - 项目配置：`src/main/resources/application-dev.yml`
 - 要求 Redis（可选）
@@ -257,7 +270,7 @@ jeecg:
 
 ## AI 智能生成
 
-> 完成 [AI 助手集成配置](#ai-助手集成配置) 后，报表设计器内 AI 入口即刻可用。一句话描述需求或上传截图，AI 自动生成完整的**报表、大屏、仪表盘**，覆盖数据可视化全场景，告别繁琐拖拽。
+> 完成 [AI 助手集成配置](#ai-助手集成配置) 后，报表设计器内 AI 入口即刻可用。一句话描述需求或上传截图，AI 自动生成完整的**报表、大屏、仪表盘、对话式 BI**，覆盖数据可视化全场景，告别繁琐拖拽。
 
 #### 🤖 AI 助手能力一览
 
@@ -266,6 +279,7 @@ jeecg:
 | **AI 报表** | 自然语言一句话生成分组、交叉、主子等各类复杂报表 | 做一个按部门分组的工资统计报表 |
 | **AI 大屏** | 一句话生成完整大屏，自动完成图表布局、色彩主题与数据绑定 | 做一个智慧物流监控大屏 |
 | **AI 仪表盘** | 自动生成 KPI 看板与业务仪表盘，支持多图表组合 | 生成一个销售运营 KPI 看板 |
+| **AI 对话式 BI** | 自然语言对话式数据分析，自动查询数据并生成可视化洞察 | 今年各区域销售额趋势如何 |
 | **截图还原** | 上传报表 / 大屏截图，AI 自动识别并还原为可编辑模板 | —— |
 | **AI 自动建表** | AI 根据报表需求自动建表并填充示例数据，快速验证效果 | 需开启 `autoTableEnabled: true` |
 
