@@ -108,7 +108,12 @@
             <artifactId>jimubi-spring-boot4-starter</artifactId>
             <version>${jimubi.version}</version>
         </dependency>
-        
+        <!-- 积木chatbi -->
+        <dependency>
+            <groupId>org.jeecgframework.jimureport</groupId>
+            <artifactId>jimuchatbi-spring-boot4-starter</artifactId>
+            <version>1.0.0</version>
+        </dependency>
         <!-- minidao -->
         <dependency>
             <groupId>org.jeecgframework.boot3</groupId>
