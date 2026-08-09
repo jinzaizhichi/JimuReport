@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.5.5</version>
+        <version>4.1.0</version>
         <relativePath/>
     </parent>
 
@@ -60,7 +60,6 @@
         <jsqlparser.version>5.0</jsqlparser.version>
     </properties>
 
-
     <dependencies>
         <!-- Lombok -->
         <dependency>
@@ -76,7 +75,7 @@
         <!-- 积木报表 -->
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
-            <artifactId>jimureport-spring-boot3-starter</artifactId>
+            <artifactId>jimureport-spring-boot4-starter</artifactId>
             <version>${jimureport.version}</version>
             <exclusions>
                 <exclusion>
@@ -106,9 +105,10 @@
         <!-- 积木BI大屏 -->
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
-            <artifactId>jimubi-spring-boot3-starter</artifactId>
+            <artifactId>jimubi-spring-boot4-starter</artifactId>
             <version>${jimubi.version}</version>
         </dependency>
+        
         <!-- minidao -->
         <dependency>
             <groupId>org.jeecgframework.boot3</groupId>
@@ -131,18 +131,17 @@
         <!-- SpringBoot-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter-webmvc</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-freemarker</artifactId>
         </dependency>
-
         <!-- Sa-Token 权限认证，在线文档：https://sa-token.cc -->
         <dependency>
             <groupId>cn.dev33</groupId>
-            <artifactId>sa-token-spring-boot3-starter</artifactId>
-            <version>1.44.0</version>
+            <artifactId>sa-token-spring-boot4-starter</artifactId>
+            <version>1.45.0</version>
         </dependency>
 <!--        &lt;!&ndash; Sa-Token整合 Redis(使用jackson序列化方式) &ndash;&gt;
         <dependency>
@@ -169,6 +168,10 @@
                 <exclusion>
                     <groupId>org.apache.commons</groupId>
                     <artifactId>commons-compress</artifactId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>okhttp</artifactId>
+                    <groupId>com.squareup.okhttp3</groupId>
                 </exclusion>
             </exclusions>
             <optional>true</optional>
