@@ -11,12 +11,12 @@ v2.5.0 | 2026-06-25
 [![](https://img.shields.io/badge/version-2.5.0-brightgreen.svg)](https://github.com/jeecgboot/JimuReport)
 [![](https://img.shields.io/badge/Blog-积木报表官网-blue.svg)](http://jimureport.com)
 [![](https://img.shields.io/badge/Docs-Documentation-9cf.svg)](https://help.jimureport.com)
-[![](https://img.shields.io/badge/AI-Report%20%26%20Big%20Screen-ff5722.svg)](https://jimureport.com/skills)
+[![](https://img.shields.io/badge/AI-Report%20%26%20Big%20Screen%20%26%20ChatBI-ff5722.svg)](https://jimureport.com/skills)
 [![GitHub stars](https://img.shields.io/github/stars/jeecgboot/JimuReport.svg?style=social&label=Stars)](https://github.com/jeecgboot/JimuReport)
 [![GitHub forks](https://img.shields.io/github/forks/jeecgboot/JimuReport.svg?style=social&label=Fork)](https://github.com/jeecgboot/JimuReport)
 
 
-> **Free AI visualization reporting. Describe your needs in one sentence and AI generates reports and data screens automatically; it also offers an Excel-like drag-and-drop designer compatible with 30+ data sources, easily handling all kinds of complex reporting scenarios — a cost-effective open-source alternative to FineReport and Tableau.** ✨
+> **🎉 JimuChatBI is now live: the first free and open-source conversational intelligent data analytics product (Chat2BI). A truly AI-powered reporting tool is here! Generate reports and data screens from one sentence, with conversational AI refinement and optimization; Excel-like online report design, compatible with Xinchuang / domestic data sources — a cost-effective open-source alternative to FineReport and Tableau.** ✨
 
 
 <p align="center">
@@ -45,7 +45,8 @@ v2.5.0 | 2026-06-25
 
 JimuReport is a **free data visualization reporting tool** that brings reports, printing, big screens, dashboards, and conversational BI together — design entirely online, like building with blocks. It consists of three modules: **JimuReport** focuses on traditional complex reports and printing, **JimuBI** focuses on big-screen and dashboard visualization, and **JimuChatBI** provides conversational intelligent data analysis, enabling data queries and insights through natural language.
 
-- **AI-Powered Generation**: Built-in Claude Code skills (AI report / big screen / dashboard) generate professional visualization pages from a single sentence — no more tedious drag-and-drop.
+- **🎉 JimuChatBI is now live**: the **first free and open-source conversational intelligent data analytics product (Chat2BI)**. Just tell AI what you need — tables, charts, and grouped summaries are generated automatically, handling complex reporting scenarios with ease. Want a big screen? One sentence does that too. Welcome to the AI era of data analytics.
+- **AI-Powered Generation**: Built-in Claude Code skills (AI report / big screen / dashboard / ChatBI) generate professional visualization pages from a single sentence, with conversational AI refinement and optimization — no more tedious drag-and-drop.
 - **Excel-like Designer**: Web-based drag-and-drop design, WYSIWYG, focused on solving enterprise-grade complex reporting challenges.
 - **Enterprise Advanced Features**: grouping / cross-tab / master-detail reports, **multi-sheet reports**, data drill-down, **one-click printing**, form-overlay & invoice printing, **data filling**, **mobile reports**, QR/barcodes, and more.
 - **Full-Scenario Coverage**: JimuBI supports big screens, dashboards, portals, and mobile — develop once, adapt everywhere; JimuChatBI enables data queries and analysis through natural-language conversation, lowering the barrier to BI; big screens use a Word-like style with freely draggable components.
@@ -64,15 +65,18 @@ Reports are an indispensable part of enterprise IT, yet the industry has long la
 
 So what kind of report should it be? With the rise of low-code, the traditional model of designing templates in a tool and then integrating them with systems has become outdated. What we pursue is fully online design with visual, zero-barrier operation — truly simple, easy to use, and intelligent.
 
-And with the arrival of the AI wave, JimuReport goes a step further by introducing **AI capabilities** — built-in Claude Code skills let you generate reports, big screens, and dashboards from a single sentence, shifting report design from "dragging" to "conversation" for true intelligence and efficiency.
+And with the arrival of the AI wave, JimuReport goes a step further by introducing **AI capabilities** — built-in Claude Code skills let you generate reports, big screens, dashboards, and **JimuChatBI conversational analytics** from a single sentence, shifting report design from "dragging" to "conversation" for true intelligence and efficiency.
+
+**JimuChatBI — the first free and open-source conversational intelligent data analytics product (Chat2BI)**: a truly AI-powered reporting tool is here! Users simply describe their analysis needs in chat, and the system automatically generates tables, charts, and grouped summaries, with conversational AI refinement and optimization to handle even complex reporting scenarios with ease.
 
 
 ## Why Choose JimuReport
 
->    **Permanently free · AI-intelligent · full-scenario** — generate reports from a single sentence, design with Excel-like drag-and-drop, with 30+ data sources, complex reports, precise printing, data filling, big screens and dashboards all in one. The reporting tool of choice for the low-code era!
+>    **Permanently free · AI-intelligent · full-scenario** — **JimuChatBI: the first free and open-source conversational intelligent data analytics product (Chat2BI)**. Generate reports and data screens from one sentence, design with Excel-like drag-and-drop, with 30+ data sources, complex reports, precise printing, data filling, big screens and dashboards all in one. The reporting tool of choice for the low-code era!
 
+- **JimuChatBI is now live**: the **first free and open-source conversational intelligent data analytics product (Chat2BI)**. Just tell AI what you need — tables, charts, and grouped summaries are generated automatically; want a big screen, one sentence does that too. Welcome to the AI era of data analytics.
 - **Quick Integration**: works with any SpringBoot scaffold project.
-- **AI-Powered**: built-in Claude Code skills (AI report / big screen / dashboard) generate editable visualization pages from a single sentence or a screenshot.
+- **AI-Powered**: built-in Claude Code skills (AI report / big screen / dashboard / ChatBI) generate editable visualization pages from a single sentence or a screenshot, with conversational AI refinement and optimization.
 - **Excel-like Designer**: web drag-and-drop, WYSIWYG; supports multi-sheet, unlimited rows/columns, frozen panes, plus report functions like SUMIFS / VLOOKUP / IF with automatic totals.
 - **Complex Reports**: full coverage of grouping, cross-tab, master-detail, detail, multi-header, data drill-down, alerts, conditional query, and QR/barcode reports.
 - **Data Binding & Big Data**: compatible with 30+ data sources (MySQL, Oracle, DM, KingbaseES, plus Hive, ClickHouse, Doris, ES, MongoDB, files / multi-files, etc.), with SQL / API / JSON / WebSocket multi-source binding and chart linkage & drill-down.
@@ -224,7 +228,9 @@ And with the arrival of the AI wave, JimuReport goes a step further by introduci
 
 ## AI-Powered Generation
 
-> A collection of JimuReport Claude Code skills: describe your needs in one sentence and AI generates **AI reports**, **AI big screens**, **AI dashboards**, and **AI conversational BI**, covering the full data-visualization spectrum — no more tedious drag-and-drop.
+> A collection of JimuReport Claude Code skills: describe your needs in one sentence and AI generates **AI reports**, **AI big screens**, **AI dashboards**, and **AI conversational BI (JimuChatBI)**, covering the full data-visualization spectrum — no more tedious drag-and-drop.
+>
+> **🎉 JimuChatBI — the first free and open-source conversational intelligent data analytics product (Chat2BI)**: just tell AI what you need — tables, charts, and grouped summaries are generated automatically, handling complex reporting scenarios with ease; want a big screen, one sentence does that too, with conversational AI refinement and optimization. Welcome to the AI era of data analytics.
 
 #### 🚀 One-Click Install: Claude Code + JimuReport Skills
 
