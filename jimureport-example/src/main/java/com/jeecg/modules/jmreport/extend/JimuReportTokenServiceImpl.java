@@ -132,6 +132,9 @@ public class JimuReportTokenServiceImpl implements JmReportTokenServiceI {
                 "jmreport:category:completelyDelete",// 报表分类-彻底删除
                 "jmreport:category:batchMove",       // 报表分类-批量移动
                 "jmreport:category:folderSort",      // 报表分类-文件夹排序
+                "jmreport:datasource:testConnection",// 数据源连接测试
+                "jmreport:datasource:saveOrUpate",   // 数据源新增/编辑
+                "jmreport:datasource:delete",        // 数据源删除
                 "jmreport:design:loadTableData"      // 设计器-加载表数据
         };
     }
