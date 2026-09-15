@@ -95,7 +95,7 @@ jeecg:
         #download-path: "/???/???"
     #多租户模式，默认值为空(created:按照创建人隔离、tenant:按照租户隔离)
     saasMode:
-    # 签名密钥
+    # 接口加签密钥(示例值随开源仓库公开，部署前请替换为自己的随机值)
     signatureSecret: 6e10e68b9b7c879b8b3c81489c568f5b550278a1b0f1ae28
     # 平台上线安全配置
     firewall:

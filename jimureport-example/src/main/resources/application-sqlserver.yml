@@ -48,7 +48,7 @@ jeecg:
     bucketName: ??
   #大屏报表参数设置
   jmreport:
-    # 签名密钥
+    # 接口加签密钥(示例值随开源仓库公开，部署前请替换为自己的随机值)
     signatureSecret: 8eb822f33347bfd3558fef0cd366b8e58bb8b7228d10fd35
 #输出sql日志
 logging:

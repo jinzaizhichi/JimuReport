@@ -74,7 +74,7 @@ jeecg:
   jmreport:
     #多租户模式，默认值为空(created:按照创建人隔离、tenant:按照租户隔离)
     saasMode:
-    # 签名密钥
+    # 接口加签密钥(示例值随开源仓库公开，部署前请替换为自己的随机值)
     signatureSecret: dfc4f81aa9a93271869fab53b3aaed91d836429ac3924184
     ai:
       # OpenAI 兼容 base 地址（必填）
