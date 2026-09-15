@@ -46,6 +46,10 @@ jeecg:
     minio_name: ??
     minio_pass: ??
     bucketName: ??
+  #大屏报表参数设置
+  jmreport:
+    # 签名密钥
+    signatureSecret: 8eb822f33347bfd3558fef0cd366b8e58bb8b7228d10fd35
 #输出sql日志
 logging:
   level:

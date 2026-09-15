@@ -75,7 +75,7 @@ jeecg:
     #多租户模式，默认值为空(created:按照创建人隔离、tenant:按照租户隔离)
     saasMode:
     # 签名密钥
-    signatureSecret: dd05f1c54d63749eda95f9fa6d49v442a
+    signatureSecret: dfc4f81aa9a93271869fab53b3aaed91d836429ac3924184
     ai:
       # OpenAI 兼容 base 地址（必填）
       base-url: https://api.deepseek.com
