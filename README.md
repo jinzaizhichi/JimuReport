@@ -157,14 +157,22 @@ v2.5.3 | 2026-09-18
 
 #### 第三步：引入积木 ChatBI 依赖（对话式智能数据分析）
 
--   当前依赖同时支持 SpringBoot4 和 SpringBoot3 项目
-
+springboot4 版本
 ```
-<!-- 积木chatbi -->
+<!-- ChatBI智能问数 -->
 <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimuchatbi-spring-boot4-starter</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
+</dependency>
+```
+springboot3 版本
+```
+<!-- ChatBI智能问数 -->
+<dependency>
+    <groupId>org.jeecgframework.jimureport</groupId>
+    <artifactId>jimuchatbi-spring-boot3-starter</artifactId>
+    <version>1.1.0</version>
 </dependency>
 ```
 

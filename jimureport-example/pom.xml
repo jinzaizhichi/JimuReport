@@ -116,7 +116,7 @@
         <dependency>
             <groupId>org.jeecgframework.jimureport</groupId>
             <artifactId>jimuchatbi-spring-boot4-starter</artifactId>
-            <version>1.0.0</version>
+            <version>1.1.0</version>
         </dependency>
         <!-- minidao -->
         <dependency>

@@ -158,12 +158,23 @@ And with the arrival of the AI wave, JimuReport goes a step further by introduci
 
 -  The current dependency supports both Spring Boot 4 and Spring Boot 3 projects.
 
+
+springboot4
 ```
-<!-- JimuChatBI -->
+<!-- ChatBI智能问数 -->
 <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimuchatbi-spring-boot4-starter</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
+</dependency>
+```
+springboot3
+```
+<!-- ChatBI智能问数 -->
+<dependency>
+    <groupId>org.jeecgframework.jimureport</groupId>
+    <artifactId>jimuchatbi-spring-boot3-starter</artifactId>
+    <version>1.1.0</version>
 </dependency>
 ```
 
