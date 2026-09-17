@@ -8,7 +8,7 @@ v2.5.3 | 2026-09-18
 
 
 [![](https://img.shields.io/badge/Author-北京国炬信息技术有限公司-orange.svg)](https://guojusoft.com)
-[![](https://img.shields.io/badge/version-2.5.0-brightgreen.svg)](https://github.com/jeecgboot/JimuReport)
+[![](https://img.shields.io/badge/version-2.5.3-brightgreen.svg)](https://github.com/jeecgboot/JimuReport)
 [![](https://img.shields.io/badge/Blog-积木报表官网-blue.svg)](http://jimureport.com)
 [![](https://img.shields.io/badge/Docs-开发文档-9cf.svg)](https://help.jimureport.com)
 [![](https://img.shields.io/badge/AI-报表%20%26%20大屏%20%26%20ChatBI-ff5722.svg)](https://jimureport.com/skills)
