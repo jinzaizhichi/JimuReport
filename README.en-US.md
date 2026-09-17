@@ -4,11 +4,11 @@
 
 # JimuReport (Free Report Tool)
 
-v2.5.2 | 2026-09-09
+v2.5.3 | 2026-09-18
 
 
 [![](https://img.shields.io/badge/Author-北京国炬信息技术有限公司-orange.svg)](https://guojusoft.com)
-[![](https://img.shields.io/badge/version-2.5.2-brightgreen.svg)](https://github.com/jeecgboot/JimuReport)
+[![](https://img.shields.io/badge/version-2.5.3-brightgreen.svg)](https://github.com/jeecgboot/JimuReport)
 [![](https://img.shields.io/badge/Blog-积木报表官网-blue.svg)](http://jimureport.com)
 [![](https://img.shields.io/badge/Docs-Documentation-9cf.svg)](https://help.jimureport.com)
 [![](https://img.shields.io/badge/AI-Report%20%26%20Big%20Screen%20%26%20ChatBI-ff5722.svg)](https://jimureport.com/skills)
@@ -76,7 +76,7 @@ And with the arrival of the AI wave, JimuReport goes a step further by introduci
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-spring-boot3-starter</artifactId>
-    <version>2.5.2</version>
+    <version>2.5.3</version>
  </dependency>
  <!-- MongoDB, Redis, and file dataset support package, add as needed -->
  <dependency>
@@ -98,7 +98,7 @@ And with the arrival of the AI wave, JimuReport goes a step further by introduci
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-spring-boot4-starter</artifactId>
-    <version>2.5.2</version>
+    <version>2.5.3</version>
  </dependency>
 ```
 
@@ -108,7 +108,7 @@ And with the arrival of the AI wave, JimuReport goes a step further by introduci
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-spring-boot-starter</artifactId>
-    <version>2.3.4</version>
+    <version>2.5.3</version>
  </dependency>
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>

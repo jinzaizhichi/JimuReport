@@ -4,7 +4,7 @@
 
 # JimuReport积木报表(免费报表工具)
 
-v2.5.2 | 2026-09-09
+v2.5.3 | 2026-09-18
 
 
 [![](https://img.shields.io/badge/Author-北京国炬信息技术有限公司-orange.svg)](https://guojusoft.com)
@@ -77,7 +77,7 @@ v2.5.2 | 2026-09-09
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-spring-boot3-starter</artifactId>
-    <version>2.5.2</version>
+    <version>2.5.3</version>
  </dependency>
  <!-- mongo、redis和文件数据集支持包，按需引入 -->
  <dependency>
@@ -99,7 +99,7 @@ v2.5.2 | 2026-09-09
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-spring-boot4-starter</artifactId>
-    <version>2.5.2</version>
+    <version>2.5.3</version>
  </dependency>
 ```
 
@@ -109,7 +109,7 @@ v2.5.2 | 2026-09-09
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-spring-boot-starter</artifactId>
-    <version>2.3.4</version>
+    <version>2.5.3</version>
  </dependency>
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
