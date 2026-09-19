@@ -250,12 +250,15 @@
             <scope>runtime</scope>
         </dependency>
         <!--h2-->
+        <!-- H2 1.4.197 存在多个高危RCE(CVE-2018-10054 CREATE ALIAS、CVE-2021-42392 JNDI、CVE-2022-23221 RUNSCRIPT等)；
+             example 未配置任何 jdbc:h2 数据源，属未使用依赖，直接移除。确需H2请升级到最新版并设置 h2.allowedClasses 类白名单。
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <version>1.4.197</version>
             <scope>runtime</scope>
         </dependency>
+        -->
         <!--derby-->
         <dependency>
             <groupId>org.apache.derby</groupId>
