@@ -135,7 +135,13 @@ public class JimuReportTokenServiceImpl implements JmReportTokenServiceI {
                 "jmreport:datasource:testConnection",// 数据源连接测试
                 "jmreport:datasource:saveOrUpate",   // 数据源新增/编辑
                 "jmreport:datasource:delete",        // 数据源删除
-                "jmreport:design:loadTableData"      // 设计器-加载表数据
+                "jmreport:design:loadTableData",     // 设计器-加载表数据
+                "jmreport:design:parseField",        // 设计器-解析字段(SQL/API/JavaBean/填报处理器)
+                "jmreport:design:loadTable",         // 设计器-库表/字段元数据查询
+                "jmreport:design:saveDb",            // 设计器-数据集保存
+                "jmreport:design:filesDataset",      // 设计器-文件数据集
+                "jmreport:design:editEnhance",       // 设计器-增强代码(JS/CSS/Python)
+                "jmreport:datasource:query"          // 数据源-查询(列表/详情)
         };
     }
 
