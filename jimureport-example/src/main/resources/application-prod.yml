@@ -105,6 +105,12 @@ jeecg:
       lowCodeMode: prod
       # sql注入检查级别（strict:严格, basic:简单校验, none:不校验）
       sqlInjectionLevel: strict
+      # Api数据集出站请求内网/保留地址校验(SSRF防护)，默认false；对外暴露的SaaS/多租户生产环境建议开启
+      apiDsIpCheck: false
+      # Api数据集内网ip白名单（支持IP/CIDR网段/域名，非字面量IP会按域名精确匹配处理），仅在apiDsIpCheck=true时生效
+      apiDsIpWhite:
+        - api.jeecg.com
+        - bootapi.jeecg.com
     # 展示列数
     col: 100
     # 展示行数

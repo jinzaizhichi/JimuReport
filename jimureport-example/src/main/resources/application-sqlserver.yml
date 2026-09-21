@@ -50,6 +50,12 @@ jeecg:
   jmreport:
     # 接口加签密钥(示例值随开源仓库公开，部署前请替换为自己的随机值)
     signatureSecret: 8eb822f33347bfd3558fef0cd366b8e58bb8b7228d10fd35
+    # 平台上线安全配置
+    firewall:
+      # Api数据集内网ip白名单（支持IP/CIDR网段/域名，非字面量IP会按域名精确匹配处理），仅在apiDsIpCheck=true时生效
+      apiDsIpWhite:
+        - api.jeecg.com
+        - bootapi.jeecg.com
 #输出sql日志
 logging:
   level:
