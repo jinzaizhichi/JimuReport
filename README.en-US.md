@@ -4,11 +4,11 @@
 
 # JimuReport (Free Report Tool)
 
-v2.5.3 | 2026-09-18
+v2.5.4 | 2026-09-23
 
 
 [![](https://img.shields.io/badge/Author-北京国炬信息技术有限公司-orange.svg)](https://guojusoft.com)
-[![](https://img.shields.io/badge/version-2.5.3-brightgreen.svg)](https://github.com/jeecgboot/JimuReport)
+[![](https://img.shields.io/badge/version-2.5.4-brightgreen.svg)](https://github.com/jeecgboot/JimuReport)
 [![](https://img.shields.io/badge/Blog-积木报表官网-blue.svg)](http://jimureport.com)
 [![](https://img.shields.io/badge/Docs-Documentation-9cf.svg)](https://help.jimureport.com)
 [![](https://img.shields.io/badge/AI-Report%20%26%20Big%20Screen%20%26%20ChatBI-ff5722.svg)](https://jimureport.com/skills)
@@ -68,6 +68,8 @@ And with the arrival of the AI wave, JimuReport goes a step further by introduci
 
 > Supports quick integration into SpringBoot scaffold projects. SpringBoot4 requires JDK17+, SpringBoot2 requires JDK8+. See the [integration docs](https://help.jimureport.com/quick.html) for details.
 
+> ⚠️ **v2.5.4 introduces breaking changes to the signing mechanism. The following modules must be upgraded together**: JimuReport `2.5.4` + JimuBI `2.5.4` + JimuChatBI `1.2.0`. They share the same signing and encryption scheme; mismatched versions cause signature verification failures and datasource connection errors. Modules you have not integrated can be ignored.
+
 #### Step 1: Add JimuReport Dependencies
 
 -   springboot3
@@ -76,7 +78,7 @@ And with the arrival of the AI wave, JimuReport goes a step further by introduci
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-spring-boot3-starter</artifactId>
-    <version>2.5.3</version>
+    <version>2.5.4</version>
  </dependency>
  <!-- MongoDB, Redis, and file dataset support package, add as needed -->
  <dependency>
@@ -98,7 +100,7 @@ And with the arrival of the AI wave, JimuReport goes a step further by introduci
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-spring-boot4-starter</artifactId>
-    <version>2.5.3</version>
+    <version>2.5.4</version>
  </dependency>
 ```
 
@@ -108,7 +110,7 @@ And with the arrival of the AI wave, JimuReport goes a step further by introduci
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-spring-boot-starter</artifactId>
-    <version>2.5.3</version>
+    <version>2.5.4</version>
  </dependency>
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
@@ -130,7 +132,7 @@ And with the arrival of the AI wave, JimuReport goes a step further by introduci
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimubi-spring-boot3-starter</artifactId>
-  <version>2.5.2</version>
+  <version>2.5.4</version>
 </dependency>
 ```
 
@@ -140,7 +142,7 @@ And with the arrival of the AI wave, JimuReport goes a step further by introduci
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimubi-spring-boot4-starter</artifactId>
-  <version>2.5.2</version>
+  <version>2.5.4</version>
 </dependency>
 ```
 
@@ -165,7 +167,7 @@ springboot4
 <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimuchatbi-spring-boot4-starter</artifactId>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
 </dependency>
 ```
 springboot3
@@ -174,7 +176,7 @@ springboot3
 <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimuchatbi-spring-boot3-starter</artifactId>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
 </dependency>
 ```
 

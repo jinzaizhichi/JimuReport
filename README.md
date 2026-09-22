@@ -4,11 +4,11 @@
 
 # JimuReport积木报表(免费报表工具)
 
-v2.5.3 | 2026-09-18
+v2.5.4 | 2026-09-23
 
 
 [![](https://img.shields.io/badge/Author-北京国炬信息技术有限公司-orange.svg)](https://guojusoft.com)
-[![](https://img.shields.io/badge/version-2.5.3-brightgreen.svg)](https://github.com/jeecgboot/JimuReport)
+[![](https://img.shields.io/badge/version-2.5.4-brightgreen.svg)](https://github.com/jeecgboot/JimuReport)
 [![](https://img.shields.io/badge/Blog-积木报表官网-blue.svg)](http://jimureport.com)
 [![](https://img.shields.io/badge/Docs-开发文档-9cf.svg)](https://help.jimureport.com)
 [![](https://img.shields.io/badge/AI-报表%20%26%20大屏%20%26%20ChatBI-ff5722.svg)](https://jimureport.com/skills)
@@ -69,6 +69,8 @@ v2.5.3 | 2026-09-18
 
 > 支持快速集成 SpringBoot 脚手架项目中。SpringBoot4 版本要求 JDK17 及以上、SpringBoot2 版要求 JDK8+。详细配置见 [快速集成文档](https://help.jimureport.com/quick.html)。
 
+> ⚠️ **v2.5.4 签名机制有重大变更，以下模块必须同步升级**：积木报表 `2.5.4` + 积木BI大屏/仪表盘 `2.5.4` + 积木问数 JimuChatBI `1.2.0`。三者签名与加密方案同源，版本不匹配会出现验签失败、数据源连不上等问题；未集成的模块可忽略。
+
 #### 第一步：引入积木报表依赖
 
 -   springboot3（支持AI助手）
@@ -77,7 +79,7 @@ v2.5.3 | 2026-09-18
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-spring-boot3-starter</artifactId>
-    <version>2.5.3</version>
+    <version>2.5.4</version>
  </dependency>
  <!-- mongo、redis和文件数据集支持包，按需引入 -->
  <dependency>
@@ -99,7 +101,7 @@ v2.5.3 | 2026-09-18
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-spring-boot4-starter</artifactId>
-    <version>2.5.3</version>
+    <version>2.5.4</version>
  </dependency>
 ```
 
@@ -109,7 +111,7 @@ v2.5.3 | 2026-09-18
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimureport-spring-boot-starter</artifactId>
-    <version>2.5.3</version>
+    <version>2.5.4</version>
  </dependency>
  <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
@@ -131,7 +133,7 @@ v2.5.3 | 2026-09-18
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimubi-spring-boot3-starter</artifactId>
-  <version>2.5.2</version>
+  <version>2.5.4</version>
 </dependency>
 ```
 
@@ -141,7 +143,7 @@ v2.5.3 | 2026-09-18
 <dependency>
   <groupId>org.jeecgframework.jimureport</groupId>
   <artifactId>jimubi-spring-boot4-starter</artifactId>
-  <version>2.5.2</version>
+  <version>2.5.4</version>
 </dependency>
 ```
 
@@ -163,7 +165,7 @@ springboot4 版本
 <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimuchatbi-spring-boot4-starter</artifactId>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
 </dependency>
 ```
 springboot3 版本
@@ -172,7 +174,7 @@ springboot3 版本
 <dependency>
     <groupId>org.jeecgframework.jimureport</groupId>
     <artifactId>jimuchatbi-spring-boot3-starter</artifactId>
-    <version>1.1.0</version>
+    <version>1.2.0</version>
 </dependency>
 ```
 
