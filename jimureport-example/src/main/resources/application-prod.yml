@@ -25,6 +25,9 @@ spring:
       host: 127.0.0.1
       port: 6379
       password:
+      # 生产环境默认配了Redis则保持true即可；无Redis部署时设为false避免启动失败
+      listener:
+        auto-startup: false
   # 登录认证配置
   security:
     #是否开启登录认证

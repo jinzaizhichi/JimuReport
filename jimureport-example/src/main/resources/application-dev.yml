@@ -25,6 +25,10 @@ spring:
       host: 127.0.0.1
       port: 6379
       password:
+      # SpringBoot4.1 默认自动启动redisMessageListenerContainer，启动时会强制连接Redis，
+      # 本地无Redis时设为false，报表缓存/跨节点大屏推送等功能在Redis可用前不生效，但不影响启动
+      listener:
+        auto-startup: false
   # 登录认证配置
   security:
     #是否开启登录认证
